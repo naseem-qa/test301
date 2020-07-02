@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-image: url(11.jpg);
+
+}
+p{
+    top: 1vmax;
+font-size: 3vmax;
+padding:1%;
+}
+
+header{
+    background-color: black;
+    text-align: center;
+    color: #fff;
+    height: 6vmax;
+}
+
+
+section{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#table{
+    background-color: #a81919d2;
+    width: 50%;
+    text-align: center;
+    padding: 8% 4%;
+}
+table {
+    border-collapse: collapse;
+  }
+  
+  table, th, td {
+    border: 2px solid #fff;
+  }
+  th {
+    height: 30px;
+    width: 15vmax;
+    background-color: black;
+    color: #fff;
+  }
+  td{
+      color: #fff;
+      background-color: rgb(83, 81, 81);
+  }
+
+
+form{
+    width: 20%;
+    text-align: center;
+    border: none;
+}
+input[type=text], select {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    width: 90%;
+    color: white;
+    background-color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 7%;
+  }
+
+  label{
+      color: #fff;
+  }
+  
+
+  
