@@ -88,15 +88,13 @@ function formNew(event) {
     var manufacturer = event.target.manufacturer.value;
     new Cars(carModel, modelYear, manufacturer);
     console.log('here', Cars.all);
-    // Cars.all.push(newCar);
     renderHr(table);
     render(table);
     setData();
 
 }
 
-//     var vehiclesString = localStorage.getItem('newVehicles');  
-//       var rawObjectArray = JSON.parse(vehiclesString);
+
 function setData() {   
     var vehiclesArr = JSON.stringify(Cars.all);
     localStorage.setItem('newVehicles', vehiclesArr);
